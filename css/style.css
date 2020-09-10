@@ -255,6 +255,11 @@ margin: 0;
   display: block;
   background-color: #f2c50f;
   margin-top: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.about-project-title:hover::after {
+  width: 50%;
+  background-color: #efdc5b
 }
 .about-project-text p {
   font-weight: 300;
@@ -277,6 +282,11 @@ margin: 0;
   padding: 20px 98px;
   border-radius: 30px;
   margin-right: 60px;
+  transition: all 0.3s ease-in-out;
+}
+.button-and-docs button:hover {
+  border-radius: 20px;
+  background-color: #f2c50f;
 }
 .button-and-docs a {
   font-weight: 300;
@@ -286,5 +296,10 @@ margin: 0;
   color: black;
   border-bottom: 1px solid #000;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.button-and-docs a:hover {
+  line-height: 23px;
+  font-size: 19px;
 }
 
