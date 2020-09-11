@@ -214,9 +214,9 @@ margin: 0;
   padding-top: 100px;
   padding-bottom: 160px;
 }
-.about-project .container {
+.about-project  {
   max-width: 1174px;
-  width: 80%;
+  width: 90%;
   margin: 0;
   margin-left: 10%;
 }
@@ -229,7 +229,7 @@ margin: 0;
 .about-project-text {
   display: flex;
   flex-direction: column;
-  flex-basis: 55%;
+  flex-basis: 40%;
 }
 .about-project-description {
   font-weight: 700;
@@ -259,7 +259,7 @@ margin: 0;
 }
 .about-project-title:hover::after {
   width: 50%;
-  background-color: #efdc5b
+  background-color: #efdc5b;
 }
 .about-project-text p {
   font-weight: 300;
@@ -301,5 +301,46 @@ margin: 0;
 .button-and-docs a:hover {
   line-height: 23px;
   font-size: 19px;
+  z-index: 99;
+}
+.about-project-img {
+  flex-basis: 58%;
+  height: 100%;
+  margin-bottom: 130px;
+  margin-top: auto;
+}
+.about-project-img img {
+  height: 100%;
+  width: 100%;
+}
+.our-porfolio-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.our-porfolio-title {
+  font-size: 66px;
+  line-height: 72px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 60px;
+}
+.tabs {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.tab-button {
+  font-size: 16px;
+  line-height: 24px;
+  font: 500px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.tab-button:hover {
+  color: #e8a42f;
 }
 
