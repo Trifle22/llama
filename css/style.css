@@ -229,7 +229,7 @@ margin: 0;
 .about-project-text {
   display: flex;
   flex-direction: column;
-  flex-basis: 40%;
+  flex-basis: 43%;
 }
 .about-project-description {
   font-weight: 700;
@@ -296,12 +296,6 @@ margin: 0;
   color: black;
   border-bottom: 1px solid #000;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-.button-and-docs a:hover {
-  line-height: 23px;
-  font-size: 19px;
-  z-index: 99;
 }
 .about-project-img {
   flex-basis: 58%;
@@ -312,6 +306,11 @@ margin: 0;
 .about-project-img img {
   height: 100%;
   width: 100%;
+}
+.our-portfolio {
+  background-color: #f5f4f4;
+  padding-bottom: 100px;
+  padding-top: 90px;
 }
 .our-porfolio-content {
   display: flex;
@@ -342,5 +341,29 @@ margin: 0;
 }
 .tab-button:hover {
   color: #e8a42f;
+}
+.tab-button.is-active {
+  color: #e8a42f;
+}
+
+.our-porfolio {
+  background-color: #f5f4f4;
+}
+.photo, .illustrations, .all-works, .logos, .web-sites {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.is-active {
+  display: flex;
+}
+.photo-img , .all-works-img, .logos-img, .illustrations-img, .web-sites-img {
+  width: 30%;
+  margin-bottom: 40px;
 }
 
